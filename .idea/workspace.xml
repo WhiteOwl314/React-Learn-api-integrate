@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/LearnSpringDocker/gs-spring-boot-docker/initial" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/SpringDocker/gs-spring-boot-docker/complete" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/SpringDocker/gs-spring-boot-docker/initial" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/artifact" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/cafego" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/demo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/demo1" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/demo2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/eatgo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/eatgo-test/eatgopt" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/eatgo/eatgopt" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/eatgopt" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/eatgopt-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/mycontact" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/spring5/pro-spring-5-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/Coding Test/test" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/FastCampus/JAVA/demo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/FastCampus/JAVA/eatgo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/SideProject/contact" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/SideProject/eatgo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/SideProject/eatgo2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Coding/SideProject/mycontact" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/fastcampus-eatgo-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Downloads/mycontact-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="640" />
+    <option name="width" value="640" />
+    <option name="height" value="800" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
