@@ -15,12 +15,12 @@ async function getUsers() {
 
 function Users() {
     const [userId, setUserId] = useState(null)
-    const {data: users, error, isLoading, reload} =
-        useAsync({promiseFn: getUsers});
+    const {data: users, error, isLoading, run} =
+        useAsync({deferFn: getUsers});
 
     if(isLoading) return <div>로딩중..</div>;
     if(error) return <div>에러가 발생했습니다.</div>;
-    if(!users) return <button onClick={reload}>불러오기</button>;
+    if(!users) return <button onClick={run}>불러오기</button>;
 
     return(
         <>
@@ -37,7 +37,7 @@ function Users() {
                     )
                 )}
             </ul>
-            <button onClick={reload}>다시 불러오기</button>
+            <button onClick={run}>다시 불러오기</button>
             {userId && <User id={userId}/>}
         </>
     )
