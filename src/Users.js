@@ -6,27 +6,26 @@ function Users() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
+    const fetchUsers = async ()=>{
+        try{
+            //요청이 시작될 때 error, users 초기화
+            setError(null);
+            setUsers(null);
+            // loading 상태 true 로
+            setLoading(true);
+            const response = await axios.get(
+                'https://jsonplaceholder.typicode.com/users'
+            );
+            setUsers(response.data);
+        } catch (e) {
+            setError(e);
+        }
+        setLoading(false);
+    };
+
     useEffect( () => {
-
-            const fetchUsers = async ()=>{
-                try{
-                    //요청이 시작될 때 error, users 초기화
-                    setError(null);
-                    setUsers(null);
-                    // loading 상태 true 로
-                    setLoading(true);
-                    const response = await axios.get(
-                        'https://jsonplaceholder.typicode.com/users'
-                    );
-                    setUsers(response.data);
-                } catch (e) {
-                    setError(e);
-                }
-                setLoading(false);
-            };
-
             fetchUsers();
-    }, []
+        }, []
     );
 
     if(loading) return <div>로딩중..</div>;
@@ -34,13 +33,16 @@ function Users() {
     if(!users) return null;
 
     return(
-        <ul>
-            {users.map(user =>
-                (<li key={user.id}>
-                    {user.username} ({user.name})
-                </li>)
-            )}
-        </ul>
+        <>
+            <ul>
+                {users.map(user =>
+                    (<li key={user.id}>
+                        {user.username} ({user.name})
+                    </li>)
+                )}
+            </ul>
+            <button onClick={fetchUsers}>다시 불러오기</button>
+        </>
     )
 
 }
