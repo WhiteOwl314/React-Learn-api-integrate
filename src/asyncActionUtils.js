@@ -1,6 +1,7 @@
 //이 함수는 파라미터로 액션의 타입 (예: GET_USER) 과
 // Promise 를 만들어주는 함수를 받아옵니다.
-export default function createAsyncDispatcher(type, promiseFn) {
+
+export function createAsyncDispatcher(type, promiseFn) {
     //성공, 실패에 대한 액션 타입 문자열을 준비합니다.
     const SUCCESS = `${type}_SUCCESS`;
     const ERRER = `${type}_ERRER`;
@@ -27,7 +28,7 @@ export default function createAsyncDispatcher(type, promiseFn) {
 }
 
 //UsersConrtext 에서 사용 할 기본 상태
-const initialState = {
+export const initialAsyncState = {
     users: {
         loading: false,
         data: null,
