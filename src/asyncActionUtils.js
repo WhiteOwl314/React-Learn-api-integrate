@@ -79,12 +79,12 @@ export function createAsyncHandler(type, key) {
             case SUCCESS:
                 return {
                     ...state,
-                    [key]: success(aciton.data)
+                    [key]: success(action.data)
                 };
             case ERROR:
                 return {
                     ...state,
-                    [kay]: error(action.error)
+                    [key]: error(action.error)
                 };
             default:
                 return state;
