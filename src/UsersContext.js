@@ -64,4 +64,4 @@ export function useUsersDispatch() {
 }
 
 export const getUsers = createAsyncDispatcher('GET_USERS', api.getUsers);
-export const getUser = createAsyncDispatcher('GET_USER',api.getUser())
+export const getUser = createAsyncDispatcher('GET_USER',api.getUser)
